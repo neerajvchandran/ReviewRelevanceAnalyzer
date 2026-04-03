@@ -13,10 +13,10 @@ The system operates using sophisticated NLP models running locally via FastAPI, 
 2. **Output**:
    The system provides semantic matching, a relevance score, a feature coverage metric, and highlights matched/unmatched product tags. In addition, it classifies the overall interaction into one of **4 distinct cases**:
 
-   - ✅ **Relevant Positive**: The user actively discusses the actual product components extracted from the description and reports a primarily positive experience with them. 
-   - ⚠️ **Relevant Neutral**: The user discusses the product components but expresses neither strong likings nor dislikings. 
-   - 🛑 **Relevant Negative**: The user actively discusses the product but highlights flaws, criticisms, or negative sentiment regarding the matched features. 
-   - 🚫 **Irrelevant**: The review does not meaningfully mention the specific features of the product described, indicating spam or a misplaced review (Score < 30%).
+   - **Relevant Positive**: The user actively discusses the actual product components extracted from the description and reports a primarily positive experience with them. 
+   - **Relevant Neutral**: The user discusses the product components but expresses neither strong likings nor dislikings. 
+   - **Relevant Negative**: The user actively discusses the product but highlights flaws, criticisms, or negative sentiment regarding the matched features. 
+   - **Irrelevant**: The review does not meaningfully mention the specific features of the product described, indicating spam or a misplaced review (Score < 30%).
 
 ## Models Used
 
